@@ -47,7 +47,7 @@ $(document).ready(function(){
   $("#submitEmail").submit(function(event){
     event.preventDefault();
     console.log("submit");
-    $.post("https://www.bopimo.com/verification/updateEmail.php", {
+    $.post("https://www.bricktaria.com/verification/updateEmail.php", {
       "email": $("#email").val(),
       "token": $("meta[name=token]").attr("content")
     }, function(reply){

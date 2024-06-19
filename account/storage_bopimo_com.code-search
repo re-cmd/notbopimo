@@ -1,0 +1,469 @@
+# Query: storage.bopimo.com
+# ContextLines: 1
+
+112 results - 43 files
+
+admin • communitypending.php:
+  23  		<div class="col-2-12">
+  24: 			<img class="image" src="https://bricktaria.com/storage/community/<?=$community['cache']?>.png">
+  25  		</div>
+
+admin • home.php:
+  25      <div class="body">
+  26:       <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" class="image">
+  27        <br><br>
+
+admin • index.php:
+  133  				console.log(item)
+  134: 				$("#content").append("<div class='col-1-2'><div class='card border'><div class='col-1-1 centered'><div class='col-1-2'><img src='https://bricktaria.com/storage/thumbnails/"+item.id+".png' style='width:100%;'/></div><div class='col-1-2'><img src='https://bricktaria.com/storage/assets/"+item.categoryName+"/"+item.id+".png' style='width:80%;'/></div</div></div></div><div>"+item.name+"</div><div class='col-1-1'><div class='col-1-2'><div style='display:block;' class='button success centered' data-id='"+item.id+"'>Approve</div></div><div class='col-1-2'><div class='button danger centered' style='display:block;' data-id='"+item.id+"'>Decline</div></div></div></div></div>");
+  135  			});
+
+api • games\getPlayer.php:
+  52    $items['hats']['hat1'] = [
+  53:     'obj' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat1}.obj",
+  54:     'tex' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat1}.png"
+  55    ];
+
+  59    $items['hats']['hat2'] = [
+  60:     'obj' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat2}.obj",
+  61:     'tex' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat2}.png"
+  62    ];
+
+  66    $items['hats']['hat3'] = [
+  67:     'obj' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat3}.obj",
+  68:     'tex' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat3}.png"
+  69    ];
+
+  73    $items['tool'] = [
+  74:     'obj' => "https://bricktaria.com/storage/assets/tools/{$avatar->tool}.obj",
+  75:     'tex' => "https://bricktaria.com/storage/assets/tools/{$avatar->tool}.png"
+  76    ];
+
+  80  {
+  81:   $items['shirt'] = "https://bricktaria.com/storage/assets/shirts/{$avatar->shirt}.png";
+  82  }
+
+  85  {
+  86:   $items['tshirt'] = "https://bricktaria.com/storage/assets/tshirts/{$avatar->tshirt}.png";
+  87  }
+
+  90  {
+  91:   $items['pants'] = "https://bricktaria.com/storage/assets/pants/{$avatar->pants}.png";
+  92  }
+
+  96  {
+  97:   $items['face'] = "https://bricktaria.com/storage/assets/faces/{$avatar->face}.png";
+  98  }
+
+api • shop\testthumbnail.php:
+  10  ?><br>
+  11: <img src="https://bricktaria.com/storage/thumbnails/<?=$filename?>.png" />
+  12  <?php 
+
+community • community.php:
+   28    ?>
+   29: https://bricktaria.com/storage/thumbnails/awaiting.png<?php
+   30    break;
+
+   32    ?>
+   33: https://bricktaria.com/storage/community/<?=$community->cache?>.png<?php
+   34    break;
+
+   36    ?>
+   37: https://bricktaria.com/storage/thumbnails/declined.png<?php
+   38    break;
+
+  144          ?>
+  145: https://bricktaria.com/storage/thumbnails/awaiting.png<?php
+  146          break;
+
+  148          ?>
+  149: https://bricktaria.com/storage/community/<?=$community->cache?>.png<?php
+  150          break;
+
+  152          ?>
+  153: https://bricktaria.com/storage/thumbnails/declined.png<?php
+  154          break;
+
+community • fetch.php:
+  80      <a style="color:black;" href="/profile/<?=$user->id?>">
+  81:       <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" style="width:100%;">
+  82        <?=htmlentities($user->username)?>
+
+community • index.php:
+   55                ?>
+   56:       https://bricktaria.com/storage/thumbnails/awaiting.png<?php
+   57                break;
+
+   59                ?>
+   60:       https://bricktaria.com/storage/community/<?=$community['cache']?>.png<?php
+   61                break;
+
+   63                ?>
+   64:       https://bricktaria.com/storage/thumbnails/declined.png<?php
+   65                break;
+
+  112          ?>
+  113: https://bricktaria.com/storage/thumbnails/awaiting.png<?php
+  114          break;
+
+  116          ?>
+  117: https://bricktaria.com/storage/community/<?=$community['cache']?>.png<?php
+  118          break;
+
+  120          ?>
+  121: https://bricktaria.com/storage/thumbnails/declined.png<?php
+  122          break;
+
+community • search.php:
+  30    <div class="col-3-12 centered" style="padding:0px;font-size:15px;">
+  31:     <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" class="image">
+  32      <?=htmlentities($row['username'])?>
+
+community • searchCommunities.php:
+  58          ?>
+  59: https://bricktaria.com/storage/thumbnails/awaiting.png<?php
+  60          break;
+
+  62          ?>
+  63: https://bricktaria.com/storage/community/<?=$community['cache']?>.png<?php
+  64          break;
+
+  66          ?>
+  67: https://bricktaria.com/storage/thumbnails/declined.png<?php
+  68          break;
+
+community • settings.php:
+  69              ?>
+  70:     https://bricktaria.com/storage/thumbnails/awaiting.png<?php
+  71              break;
+
+  73              ?>
+  74:     https://bricktaria.com/storage/community/<?=$community->cache?>.png<?php
+  75              break;
+
+  77              ?>
+  78:     https://bricktaria.com/storage/thumbnails/declined.png<?php
+  79              break;
+
+community • js\fetchSettings.php:
+  81      <a style="color:black;" href="/profile/<?=$user->id?>">
+  82:       <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" style="width:100%;">
+  83        <?=htmlentities($user->username)?>
+
+customize • fetch_inventory.php:
+  42        <div class="image">
+  43:         <img src="https://bricktaria.com/storage/thumbnails/<?=$shop->id?>.png" height="25" class="image">
+  44          <span class="equip" data-1="<?=$i->id?>"></span>
+
+customize • get_avatar.php:
+  10  ?>
+  11: <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" class="image">
+
+customize • index.php:
+  227  							<div class="centered" id="hat1">
+  228: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  229  									<img style="width:100%;" src="remove.png" />
+
+  232  							<div class="centered" id="hat2">
+  233: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  234  									<img style="width:100%;" src="remove.png" />
+
+  237  							<div class="centered" id="hat3">
+  238: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  239  									<img style="width:100%;" src="remove.png" />
+
+  247  							<div class="centered" id="tool">
+  248: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  249  									<img style="width:100%;" src="remove.png" />
+
+  259  							<div class="centered" id="face">
+  260: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  261  									<img style="width:100%;" src="remove.png" />
+
+  270  							<div class="centered" id="tshirt">
+  271: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  272  									<img style="width:100%;" src="remove.png" />
+
+  282  							<div class="centered" id="shirt">
+  283: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  284  									<img style="width:100%;" src="remove.png" />
+
+  292  							<div class="centered" id="pants">
+  293: 								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
+  294  									<img style="width:100%;" src="remove.png" />
+
+customize • load-equipped.php:
+  20    $hatString1 = "<a href='/item/{$shop1->id}'>" . htmlentities($shop1->name) . "</a>";
+  21:   $hatImg1 = "https://bricktaria.com/storage/thumbnails/{$shop1->id}.png";
+  22  } else {
+
+  31    $hatString2 = "<a href='/item/{$shop2->id}'>" . htmlentities($shop2->name) . "</a>";
+  32:   $hatImg2 = "https://bricktaria.com/storage/thumbnails/{$shop2->id}.png";
+  33  } else {
+
+  42    $hatString3 = "<a href='/item/{$shop3->id}'>" . htmlentities($shop3->name) . "</a>";
+  43:   $hatImg3 = "https://bricktaria.com/storage/thumbnails/{$shop3->id}.png";
+  44  } else {
+
+  52    $tshirtString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
+  53:   $tshirtImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
+  54  } else {
+
+  62    $shirtString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
+  63:   $shirtImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
+  64  } else {
+
+  72    $pantsString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
+  73:   $pantsImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
+  74  } else {
+
+  82    $toolString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
+  83:   $toolImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
+  84  } else {
+
+customize • render.php:
+  14  ?>
+  15: <img src="https://bricktaria.com/storage/avatars/<?=$newAvatar->cache?>.png" class="image">
+
+forum • reply.php:
+  63  		$otherAvatar = $bop->avatar($user->id);
+  64: 		$bop->notify($thread->author, $user->username." replied to your thread.", "https://bricktaria.com/storage/avatars/".$otherAvatar->cache.".png", "/forum/t/".$thread->id."/1");
+  65  		die("yes");
+
+forum • thread.php:
+   48  <meta property="og:site_name" content="bopimo.com">
+   49: <meta property="og:image" content="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png">
+   50  <meta name="description" content="<?=htmlentities(substr($thread->body, 0, 200))?>">
+
+  117  						<a href="/profile/<?=$owner->id?>">
+  118: 							<img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" style="margin-top:10px;width:100%;" />
+  119  							<br><br>
+
+  180  								<a href="/profile/<?=$user->id?>">
+  181: 									<img src="https://bricktaria.com/storage/avatars/<?=$user_avatar->cache?>.png" style="margin-top:10px;width:100%;" />
+  182  									<br><br>
+
+forum • topic.php:
+  106  				<div class="col-8-12">
+  107:           <img src="https://bricktaria.com/storage/heads/<?=$avatar->headshot?>.png" height="50" style="float:left;margin-left:2.5px;margin-right:10px;border-radius:100px;">
+  108  					<div class="subforum-title">
+
+games • game.php:
+  111  					<?php for ($i = 0;$i <= rand(20,20);$i++) { ?>
+  112: 						<img src="https://bricktaria.com/storage/avatars/3n4NhH9F0YNFQbTSQaDOp14BS.png" class="user" />
+  113  					<?php } ?>
+
+  126  					<?php for ($i = 0;$i <= rand(1,20);$i++) { ?>
+  127: 						<img src="https://bricktaria.com/storage/avatars/3n4NhH9F0YNFQbTSQaDOp14BS.png" class="user" />
+  128  					<?php } ?>
+
+home • index.php:
+   36  			<div class="body">
+   37: 				<image src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" class="image">
+   38  					<br>
+
+   99  						<a href="/profile/<?=$getDashUser->id?>">
+  100: 							<img src="https://bricktaria.com/storage/heads/<?=$avatar->headshot?>.png" class="image" style="border-radius:100px;">
+  101  							<?=htmlentities($getDashUser->username)?>
+
+js • avatar.js:
+  103  			console.log(data);
+  104: 			$("#avr").html("<img src='https://bricktaria.com/storage/avatars/"+data.avatar+".png' style='width:100%;' />");
+  105  			$("#limbs").css('height',$("#avatar-container").css('height'));
+
+  141  				if (value.hasOwnProperty("id")) {
+  142: 					$("#" + value.elm + " .item-img").css('background-image', "url('https://bricktaria.com/storage/thumbnails/" + value.id + ".png')");
+  143  					$("#" + value.elm + " .item-img").attr("data-itemid", value.id);
+
+  147  					if ($("#" + item).length) {
+  148: 						$("#" + item + " .item-img").css('background-image', "url('https://bricktaria.com/storage/thumbnails/1.png')");
+  149  						if ($("#" + item + ".item-img img".length)) {
+
+  163  			$.each(data.data, (index, item) => {
+  164: 				$("#content-3").append('<div class="col-1-6"><div class="shop-item"><a href="/item/'+item.item_id+'"><div class="preview"><img src="https://bricktaria.com/storage/thumbnails/'+item.item_id+'.png"></div><div class="name" style="padding:5px;text-overflow: ellipsis;">'+item.name+'</div></a><div style="text-align:center;margin-bottom:10px;"><span class="button success" data-action="equip" data-itemId="'+item.item_id+'">Wear</span></div></div></div>');
+  165  			});
+
+js • editItem.js:
+  89  				<div class="col-3-12" >\
+  90: 					<img class="width-100" src="https://bricktaria.com/storage/thumbnails/'+item.item_id+'.png">\
+  91  				</div>\
+
+js • friends.js:
+  82  			<a style="color:000" href="/profile/'+fr.user.id+'">\
+  83: 			<img src="https://bricktaria.com/storage/avatars/'+fr.user.avatar+'.png" style="width:100%;">\
+  84  			<br>\
+
+js • inventory.js:
+  48  				<div class="preview">\
+  49: 					<img src="https://bricktaria.com/storage/thumbnails/'+((declined) ? "declined" : id)+'.png">\
+  50  				</div>\
+
+js • item.js:
+  147  						<div style='margin-bottom:10px;' class='card'>\
+  148: 							<a style='float:left;' href='https://www.bopimo.com/profile/"+v.seller_id+"'><img style='margin-right: 5px;border-radius: 10px;' src='https://bricktaria.com/storage/avatars/"+v.avatar+".png' width='70'></a>\
+  149  							<div style='line-height:70px;float:left;'>"+v.username+"</div>\
+
+  158  						<div style='margin-bottom:10px;' class='card'>\
+  159: 							<a style='float:left;' href='https://www.bopimo.com/profile/"+v.seller_id+"'><img style='margin-right: 5px;border-radius: 10px;' src='https://bricktaria.com/storage/avatars/"+v.avatar+".png' width='70'></a>\
+  160  							<div style='line-height:70px;float:left;'>"+v.username+"</div>\
+
+  255  				<div class="col-2-12 centered">\
+  256: 					<a href="/profile/'+comment.user_id+'" style="color:#000;"><img src="https://bricktaria.com/storage/avatars/'+comment.avatar+'.png" class="width-100" /><br>'+comment.username+'</a>\
+  257  				</div>\
+
+js • shop.js:
+  149  			$.each(data.items, function (i, item) {
+  150: 				bundlePreview += "<img class='"+((bpcount == 1) ? "active" : "")+"' src='https://bricktaria.com/storage/thumbnails/"+item.item_id+".png' />";
+  151  				bpcount++;
+
+  159  					<div class="preview">\
+  160: 						<img src="https://bricktaria.com/storage/thumbnails/'+thumbnail+'.png" />\
+  161  						'+bundlePreview+'\
+
+js • trade.js:
+  118  				<div class="preview">\
+  119: 					<img src="https://bricktaria.com/storage/thumbnails/'+id+'.png">\
+  120  				</div>\
+
+  129  				<div class="serial">#'+serial+'</div>\
+  130: 				<img class="width-100" src="https://bricktaria.com/storage/thumbnails/'+id+'.png">\
+  131  			</div>');
+
+js • tradesHome.js:
+  63  			<a class='profile' href='/profile/"+trade.oid+"'><div style='text-align:center;'>\
+  64: 				<img src='https://bricktaria.com/storage/avatars/"+trade.avatar+".png' style='width:70%;' />\
+  65  				<br>\
+
+js • userSearch.js:
+  75  			<div class="col-4-12">\
+  76: 				<img src="https://bricktaria.com/storage/heads/'+user.headshot+'.png" style="border-radius:100px;" class="width-100" />\
+  77  			</div>\
+
+messages • main.js:
+  85              console.log(item);
+  86:             $("#content").append("<div class='card border'><div class='col-2-12'><a href='/profile/"+item.uid+"' style='color:black;'><img src='https://bricktaria.com/storage/avatars/"+item.cache+".png' class='image'></a></div><div class='col-10-12'><a href='/message/view/"+item.id+"' style='color:black'>"+title+"</a></div><div class='col-10-12' style='color:grey;font-size:14px;'><i>"+item.username+" "+time2TimeAgo(item.time)+"</i></div></div>");
+  87            });
+
+messages • view.php:
+  50        <a href="/profile/<?=$otherUser->id?>" style="color:black">
+  51:         <center><img src="https://bricktaria.com/storage/avatars/<?=$otherAvatar->cache?>.png" class="image">
+  52          <?=htmlentities($otherUser->username)?></center>
+
+messages • compose\main.js:
+  7        reply.res.forEach(function(item, index){
+  8:         $("#searches").append("<div class='col-2-12' style='padding-right:0px;'><a href='#' class='clickSelect' username='"+item.username+"' uid='"+item.id+"' style='color:black;'><center><img src='https://bricktaria.com/storage/avatars/"+item.cache+".png' class='image'>"+item.username+"</center></a></div>");
+  9        });
+
+messages • compose\send.php:
+  63      $avatar = $bop->avatar($localUser->id);
+  64:     $bop->notify($uid, $localUser->username." sent a message.", "https://bricktaria.com/storage/avatars/".$avatar->cache.".png", "/message/view/".$msg->id);
+  65      $return = array(
+
+profiles • friends.php:
+  59              <a style="color:black;" href="/profile/<?=$friend->user_id?>">
+  60:               <img src="https://bricktaria.com/storage/avatars/<?=$friend->cache?>.png" style="width:100%;">
+  61                <?=htmlentities($friend->username)?>
+
+profiles • user.php:
+   47  		<div class="card border" style="line-height:60px;">
+   48: 			<img src="https://bricktaria.com/storage/heads/<?=$avatar->headshot?>.png" height="60" style="border-radius:100px;float:left;margin-right:5px;"><span style="float:left;" title="Status"><?=htmlentities($user->status)?></span>
+   49  		</div>
+
+   54  			<div class="body">
+   55: 				<img src="https://bricktaria.com/storage/avatars/<?=$user->avatar?>.png" class="image">
+   56  				<br>
+
+  121  					</legend>
+  122: 					<div class="col-1-3"><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="hat1" class="width-100" /></a></div>
+  123: 					<div class="col-1-3"><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="hat2" class="width-100" /></a></div>
+  124: 					<div class="col-1-3" style="padding-right:20px;"><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="hat3" class="width-100" /></a></div>
+  125  				</fieldset>
+
+  130  						</legend>
+  131: 						<div style=""><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="face" class="width-100" /></a></div>
+  132  					</fieldset>
+
+  138  						</legend>
+  139: 						<div style=""><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="tshir" class="width-100" /></a></div>
+  140  					</fieldset>
+
+  146  							</legend>
+  147: 							<div style=""><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="shirt" class="width-100" /></a></div>
+  148  						</fieldset>
+
+  154  						</legend>
+  155: 						<div style=""><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="pants" class="width-100" /></a></div>
+  156  					</fieldset>
+
+  162  						</legend>
+  163: 						<div style=""><a href="#"><img src="https://bricktaria.com/storage/thumbnails/1.png" id="tool" class="width-100" /></a></div>
+  164  					</fieldset>
+
+  205  							<a style="color:black;" href="/profile/<?=$friend->user_id?>">
+  206: 								<img src="https://bricktaria.com/storage/avatars/<?=$friend->cache?>.png" style="width:100%;">
+  207  								<?=$bop->trueUsername($friend->user_id)?>
+
+  230  					<div class="col-3-12 centered" style="padding-right:0px">
+  231: 						<a href="/community/view/<?=$community['id']?>" style="color:black"><img class="image" src="https://bricktaria.com/storage/community/<?=$community['cache']?>.png"><?=$community['name']?></a>
+  232  					</div>
+
+  249  				if (value.hasOwnProperty("id")) {
+  250: 					$("#" + value.elm + "").attr('src', "https://bricktaria.com/storage/thumbnails/" + value.id + ".png");
+  251  					$($("#" + value.elm + "").parent()).attr('href', "/item/" + value.id + "");
+  252  				} else {
+  253: 					$("#" + value.elm + "").attr('src', "https://bricktaria.com/storage/thumbnails/1.png");
+  254  					$($("#" + value.elm + "").parent()).attr('href', "#");
+
+render-testing • test.php:
+  13  ?>
+  14: <img src="http://bricktaria.com/storage/avatars/<?=$img?>">
+
+shop • bundle.php:
+   32  <meta property="og:site_name" content="bopimo.com">
+   33: <meta property="og:image" content="https://bricktaria.com/storage/thumbnails/<?=$imgString?>">
+   34  <meta name="description" content="<?=htmlentities(substr($item['description'], 0, 200))?>">
+
+   41  <meta property="og:site_name" content="bopimo.com">
+   42: <meta property="og:image" content="https://bricktaria.com/storage/thumbnails/<?=$imgString?>">
+   43  <meta name="description" content="<?=nl2br(htmlentities($item['description']))?>">
+
+  113  		<div>
+  114: 			<img src="https://bricktaria.com/storage/thumbnails/<?=$imgString?>" style="width:100%;" />
+  115  		</div>
+
+shop • edit.php:
+  58  		<div>
+  59: 			<img src="https://bricktaria.com/storage/thumbnails/<?=$imgString?>" style="width:100%;" />
+  60  		</div>
+
+shop • item.php:
+   48  <meta property="og:site_name" content="bopimo.com">
+   49: <meta property="og:image" content="https://bricktaria.com/storage/thumbnails/<?=$imgString?>">
+   50  <meta name="description" content="<?=htmlentities(substr($item['description'], 0, 200))?>">
+
+   57  <meta property="og:site_name" content="bopimo.com">
+   58: <meta property="og:image" content="https://bricktaria.com/storage/thumbnails/<?=$imgString?>">
+   59  <meta name="description" content="<?=nl2br(htmlentities($item['description']))?>">
+
+  178  		<div>
+  179: 			<img src="https://bricktaria.com/storage/thumbnails/<?=$imgString?>" style="width:100%;" />
+  180  		</div>
+
+  235  				<a class="per50" href="/item/<?=$bundleItem['item_id']?>"><div class="bundle-content">
+  236: 					<img src="https://bricktaria.com/storage/thumbnails/<?=$bundleItem['item_id']?>.png"> 
+  237  					<div class="ellipsis"><?=htmlentities($bundleItem['name'])?></div>
+
+site • header.php:
+  191  									?>
+  192: 									<img style="height: 43px;margin-top:3.5px;margin-left:5px;float:left;border-radius:100px;float:left;" src="https://bricktaria.com/storage/heads/<?=$localAvatar->headshot?>.png" alt="">
+  193  									<?php
+
+trades • view.php:
+  111  					<div class="serial">#<?=$item['serial']?></div>				
+  112: 					<img class="width-100" src="https://bricktaria.com/storage/thumbnails/<?=$item['id']?>.png">			
+  113  				</div>
+
+  133  					<div class="serial">#<?=$item['serial']?></div>				
+  134: 					<img class="width-100" src="https://bricktaria.com/storage/thumbnails/<?=$item['id']?>.png">			
+  135  				</div>

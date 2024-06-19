@@ -225,17 +225,17 @@ $colors = ["B50600", "C63901", "A8A801", "18AF01", "00D3BE", "000DA0", "A00088",
 								Hats
 							</legend>
 							<div class="centered" id="hat1">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>
 							<div class="centered" id="hat2">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>
 							<div class="centered" id="hat3">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>
@@ -245,7 +245,7 @@ $colors = ["B50600", "C63901", "A8A801", "18AF01", "00D3BE", "000DA0", "A00088",
 								Tool
 							</legend>
 							<div class="centered" id="tool">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>
@@ -257,7 +257,7 @@ $colors = ["B50600", "C63901", "A8A801", "18AF01", "00D3BE", "000DA0", "A00088",
 								Face
 							</legend>
 							<div class="centered" id="face">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 
@@ -268,7 +268,7 @@ $colors = ["B50600", "C63901", "A8A801", "18AF01", "00D3BE", "000DA0", "A00088",
 								T-Shirt
 							</legend>
 							<div class="centered" id="tshirt">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>
@@ -280,7 +280,7 @@ $colors = ["B50600", "C63901", "A8A801", "18AF01", "00D3BE", "000DA0", "A00088",
 								Shirt
 							</legend>
 							<div class="centered" id="shirt">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>
@@ -290,7 +290,7 @@ $colors = ["B50600", "C63901", "A8A801", "18AF01", "00D3BE", "000DA0", "A00088",
 								Pants
 							</legend>
 							<div class="centered" id="pants">
-								<div class="item-img" style="background-image: url('https://storage.bopimo.com/thumbnails/1.png');">
+								<div class="item-img" style="background-image: url('https://bricktaria.com/storage/thumbnails/1.png');">
 									<img style="width:100%;" src="remove.png" />
 								</div>
 							</div>

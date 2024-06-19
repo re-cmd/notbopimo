@@ -23,7 +23,7 @@ $logs = $bop->query("SELECT * FROM admin_logs WHERE user=? ORDER BY id DESC LIMI
   <div class="card b centered">
     <div class="top">You</div>
     <div class="body">
-      <img src="https://storage.bopimo.com/avatars/<?=$avatar->cache?>.png" class="image">
+      <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" class="image">
       <br><br>
       Rank: <?=$bop->modString($user->id)?>
       <br>

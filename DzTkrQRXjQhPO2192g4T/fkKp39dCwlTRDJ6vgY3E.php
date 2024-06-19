@@ -1,5 +1,5 @@
 <?php
-//https://www.bopimo.com/DzTkrQRXjQhPO2192g4T/fkKp39dCwlTRDJ6vgY3E.php
+//https://www.bricktaria.com/DzTkrQRXjQhPO2192g4T/fkKp39dCwlTRDJ6vgY3E.php
 
 
 require("/var/www/html/site/bopimo.php");

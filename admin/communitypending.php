@@ -21,7 +21,7 @@ if(!isset($_POST['req']))
 	  ?>
 	  <div class="card border" id="main<?=$community['id']?>">
 		<div class="col-2-12">
-			<img class="image" src="https://storage.bopimo.com/community/<?=$community['cache']?>.png">
+			<img class="image" src="https://bricktaria.com/storage/community/<?=$community['cache']?>.png">
 		</div>
 		<div class="col-6-12">
 			<div class="page-title"><?=htmlentities($community['name'])?></div>

@@ -40,7 +40,7 @@ foreach($inventory->fetchAll()[0] as $i)
   <div class="col-2-12">
     <div class="image-cont far-left-rad far-right-rad" style="width:100%;">
       <div class="image">
-        <img src="https://storage.bopimo.com/thumbnails/<?=$shop->id?>.png" height="25" class="image">
+        <img src="https://bricktaria.com/storage/thumbnails/<?=$shop->id?>.png" height="25" class="image">
         <span class="equip" data-1="<?=$i->id?>"></span>
       </div>
       <div class="text">

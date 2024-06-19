@@ -8,4 +8,4 @@ if(!$bop->logged_in())
 
 $avatar = $bop->avatar($_SESSION['id']);
 ?>
-<img src="https://storage.bopimo.com/avatars/<?=$avatar->cache?>.png" class="image">
+<img src="https://bricktaria.com/storagerage//avatars/<?=$avatar->cache?>.png" class="image">

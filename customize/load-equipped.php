@@ -18,7 +18,7 @@ if($avatar->hat1 != 0)
 {
   $shop1 = $bop->look_for("items", ["id" => $avatar->hat1]);
   $hatString1 = "<a href='/item/{$shop1->id}'>" . htmlentities($shop1->name) . "</a>";
-  $hatImg1 = "https://storage.bopimo.com/thumbnails/{$shop1->id}.png";
+  $hatImg1 = "https://bricktaria.com/storage/thumbnails/{$shop1->id}.png";
 } else {
   $hatImg1 = "/css/logo-small.png";
   $hatString1 = "Empty Slot";
@@ -29,7 +29,7 @@ if($avatar->hat2 != 0)
 {
   $shop2 = $bop->look_for("items", ["id" => $avatar->hat2]);
   $hatString2 = "<a href='/item/{$shop2->id}'>" . htmlentities($shop2->name) . "</a>";
-  $hatImg2 = "https://storage.bopimo.com/thumbnails/{$shop2->id}.png";
+  $hatImg2 = "https://bricktaria.com/storage/thumbnails/{$shop2->id}.png";
 } else {
   $hatImg2 = "/css/logo-small.png";
   $hatString2 = "Empty Slot";
@@ -40,7 +40,7 @@ if($avatar->hat3 != 0)
 {
   $shop3 = $bop->look_for("items", ["id" => $avatar->hat3]);
   $hatString3 = "<a href='/item/{$shop3->id}'>" . htmlentities($shop3->name) . "</a>";
-  $hatImg3 = "https://storage.bopimo.com/thumbnails/{$shop3->id}.png";
+  $hatImg3 = "https://bricktaria.com/storage/thumbnails/{$shop3->id}.png";
 } else {
   $hatImg3 = "/css/logo-small.png";
   $hatString3 = "Empty Slot";
@@ -50,7 +50,7 @@ if($avatar->tshirt != 0)
 {
   $shopT = $bop->look_for("items", ["id" => $avatar->tshirt]);
   $tshirtString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
-  $tshirtImg = "https://storage.bopimo.com/thumbnails/{$shopT->id}.png";
+  $tshirtImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
 } else {
   $tshirtImg = "/css/logo-small.png";
   $tshirtString = "Empty Slot";
@@ -60,7 +60,7 @@ if($avatar->shirt != 0)
 {
   $shopT = $bop->look_for("items", ["id" => $avatar->shirt]);
   $shirtString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
-  $shirtImg = "https://storage.bopimo.com/thumbnails/{$shopT->id}.png";
+  $shirtImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
 } else {
   $shirtImg = "/css/logo-small.png";
   $shirtString = "Empty Slot";
@@ -70,7 +70,7 @@ if($avatar->pants != 0)
 {
   $shopT = $bop->look_for("items", ["id" => $avatar->pants]);
   $pantsString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
-  $pantsImg = "https://storage.bopimo.com/thumbnails/{$shopT->id}.png";
+  $pantsImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
 } else {
   $pantsImg = "/css/logo-small.png";
   $pantsString = "Empty Slot";
@@ -80,7 +80,7 @@ if($avatar->tool != 0)
 {
   $shopT = $bop->look_for("items", ["id" => $avatar->tool]);
   $toolString = "<a href='/item/{$shopT->id}'>" . htmlentities($shopT->name) . "</a>";
-  $toolImg = "https://storage.bopimo.com/thumbnails/{$shopT->id}.png";
+  $toolImg = "https://bricktaria.com/storage/thumbnails/{$shopT->id}.png";
 } else {
   $toolImg = "/css/logo-small.png";
   $toolString = "Empty Slot";

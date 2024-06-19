@@ -50,51 +50,51 @@ $items = array(
 if($avatar->hat1 != "0")
 {
   $items['hats']['hat1'] = [
-    'obj' => "https://storage.bopimo.com/assets/hats/{$avatar->hat1}.obj",
-    'tex' => "https://storage.bopimo.com/assets/hats/{$avatar->hat1}.png"
+    'obj' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat1}.obj",
+    'tex' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat1}.png"
   ];
 }
 if($avatar->hat2 != "0")
 {
   $items['hats']['hat2'] = [
-    'obj' => "https://storage.bopimo.com/assets/hats/{$avatar->hat2}.obj",
-    'tex' => "https://storage.bopimo.com/assets/hats/{$avatar->hat2}.png"
+    'obj' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat2}.obj",
+    'tex' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat2}.png"
   ];
 }
 if($avatar->hat3 != "0")
 {
   $items['hats']['hat3'] = [
-    'obj' => "https://storage.bopimo.com/assets/hats/{$avatar->hat3}.obj",
-    'tex' => "https://storage.bopimo.com/assets/hats/{$avatar->hat3}.png"
+    'obj' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat3}.obj",
+    'tex' => "https://bricktaria.com/storage/assets/hats/{$avatar->hat3}.png"
   ];
 }
 if($avatar->tool != "0")
 {
   $items['tool'] = [
-    'obj' => "https://storage.bopimo.com/assets/tools/{$avatar->tool}.obj",
-    'tex' => "https://storage.bopimo.com/assets/tools/{$avatar->tool}.png"
+    'obj' => "https://bricktaria.com/storage/assets/tools/{$avatar->tool}.obj",
+    'tex' => "https://bricktaria.com/storage/assets/tools/{$avatar->tool}.png"
   ];
 }
 
 if($avatar->shirt != "0")
 {
-  $items['shirt'] = "https://storage.bopimo.com/assets/shirts/{$avatar->shirt}.png";
+  $items['shirt'] = "https://bricktaria.com/storage/assets/shirts/{$avatar->shirt}.png";
 }
 
 if($avatar->tshirt != "0")
 {
-  $items['tshirt'] = "https://storage.bopimo.com/assets/tshirts/{$avatar->tshirt}.png";
+  $items['tshirt'] = "https://bricktaria.com/storage/assets/tshirts/{$avatar->tshirt}.png";
 }
 
 if($avatar->pants != "0")
 {
-  $items['pants'] = "https://storage.bopimo.com/assets/pants/{$avatar->pants}.png";
+  $items['pants'] = "https://bricktaria.com/storage/assets/pants/{$avatar->pants}.png";
 }
 
 
 if($avatar->face != "0")
 {
-  $items['face'] = "https://storage.bopimo.com/assets/faces/{$avatar->face}.png";
+  $items['face'] = "https://bricktaria.com/storage/assets/faces/{$avatar->face}.png";
 }
 
 $player = array(

@@ -53,15 +53,15 @@ if($bop->logged_in())
             {
               case "0":
               ?>
-      https://storage.bopimo.com/thumbnails/awaiting.png<?php
+      https://bricktaria.com/storage/thumbnails/awaiting.png<?php
               break;
               case "1":
               ?>
-      https://storage.bopimo.com/community/<?=$community['cache']?>.png<?php
+      https://bricktaria.com/storage/community/<?=$community['cache']?>.png<?php
               break;
               case "2":
               ?>
-      https://storage.bopimo.com/thumbnails/declined.png<?php
+      https://bricktaria.com/storage/thumbnails/declined.png<?php
               break;
             }
             ?>" class="image">
@@ -110,15 +110,15 @@ foreach($popular as $community)
       {
         case "0":
         ?>
-https://storage.bopimo.com/thumbnails/awaiting.png<?php
+https://bricktaria.com/storage/thumbnails/awaiting.png<?php
         break;
         case "1":
         ?>
-https://storage.bopimo.com/community/<?=$community['cache']?>.png<?php
+https://bricktaria.com/storage/community/<?=$community['cache']?>.png<?php
         break;
         case "2":
         ?>
-https://storage.bopimo.com/thumbnails/declined.png<?php
+https://bricktaria.com/storage/thumbnails/declined.png<?php
         break;
       }
       ?>" class="image">

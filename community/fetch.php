@@ -78,7 +78,7 @@ foreach($members as $member)
   ?>
   <div class="col-2-12 centered" style="padding-right:0px;">
     <a style="color:black;" href="/profile/<?=$user->id?>">
-      <img src="https://storage.bopimo.com/avatars/<?=$avatar->cache?>.png" style="width:100%;">
+      <img src="https://bricktaria.com/storage/avatars/<?=$avatar->cache?>.png" style="width:100%;">
       <?=htmlentities($user->username)?>
     </a>
   </div>

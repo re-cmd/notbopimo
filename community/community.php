@@ -18,7 +18,7 @@ if($community == false)
 $pageName = htmlentities($community->name);
 ?>
 <meta charset="UTF-8">
-<meta property="og:site_name" content="bopimo.com">
+<meta property="og:site_name" content="bricktaria.com">
 <meta property="og:image" content="<?php
 $owner = $com->getOwner($_GET['id']);
 $founder = $bop->get_user($community->founder);
@@ -26,15 +26,15 @@ switch($community->pending)
 {
   case "0":
   ?>
-https://storage.bopimo.com/thumbnails/awaiting.png<?php
+https://bricktaria.com/storage/thumbnails/awaiting.png<?php
   break;
   case "1":
   ?>
-https://storage.bopimo.com/community/<?=$community->cache?>.png<?php
+https://bricktaria.com/storage/community/<?=$community->cache?>.png<?php
   break;
   case "2":
   ?>
-https://storage.bopimo.com/thumbnails/declined.png<?php
+https://bricktaria.com/storage/thumbnails/declined.png<?php
   break;
 }
 ?>">
@@ -142,15 +142,15 @@ $members = $bop->query("SELECT COUNT(*) FROM community_member WHERE cid=? AND ba
       {
         case "0":
         ?>
-https://storage.bopimo.com/thumbnails/awaiting.png<?php
+https://bricktaria.com/storage/thumbnails/awaiting.png<?php
         break;
         case "1":
         ?>
-https://storage.bopimo.com/community/<?=$community->cache?>.png<?php
+https://bricktaria.com/storage/community/<?=$community->cache?>.png<?php
         break;
         case "2":
         ?>
-https://storage.bopimo.com/thumbnails/declined.png<?php
+https://bricktaria.com/storage/thumbnails/declined.png<?php
         break;
       }
       ?>" class="image">

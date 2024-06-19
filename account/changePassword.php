@@ -37,9 +37,9 @@ $pre = $bop->insert("password_requests", [
 ]);
 $message = '<head><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/main.css?c=1535223873"></head>';
 $message = "<center>";
-$message .= "<img src='https://www.bopimo.com/images/logo.png'><br>";
+$message .= "<img src='https://www.bricktaria.com/images/logo.png'><br>";
 $message .= "<h1>Reset your password for {$localUser->username}</h1><br>";
-$message .= "<a class='button success' href='https://www.bopimo.com/reset/{$uuid}'>Click here to reset</a>";
+$message .= "<a class='button success' href='https://www.bricktaria.com/reset/{$uuid}'>Click here to reset</a>";
 $message .= "</center>";
 $bop->mail($localUser->email, "Bopimo password reset for {$localUser->username}", $message);
 session_destroy();

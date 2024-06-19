@@ -126,12 +126,12 @@ function affectedIdName( type ) {
 }
 
 function loadAssets() {
-	$.get("https://www.bopimo.com/api/shop/items.php?query=&category=all&sort=&creator=&min=&max=&page=1&perPage=12&showVerified=2", function (data) {
+	$.get("https://www.bricktaria.com/api/shop/items.php?query=&category=all&sort=&creator=&min=&max=&page=1&perPage=12&showVerified=2", function (data) {
 		if (data.status == "ok") {
 			$("#content").html("");
 			$.each(data.result, function (index,item) {
 				console.log(item)
-				$("#content").append("<div class='col-1-2'><div class='card border'><div class='col-1-1 centered'><div class='col-1-2'><img src='https://storage.bopimo.com/thumbnails/"+item.id+".png' style='width:100%;'/></div><div class='col-1-2'><img src='https://storage.bopimo.com/assets/"+item.categoryName+"/"+item.id+".png' style='width:80%;'/></div</div></div></div><div>"+item.name+"</div><div class='col-1-1'><div class='col-1-2'><div style='display:block;' class='button success centered' data-id='"+item.id+"'>Approve</div></div><div class='col-1-2'><div class='button danger centered' style='display:block;' data-id='"+item.id+"'>Decline</div></div></div></div></div>");
+				$("#content").append("<div class='col-1-2'><div class='card border'><div class='col-1-1 centered'><div class='col-1-2'><img src='https://bricktaria.com/storage/thumbnails/"+item.id+".png' style='width:100%;'/></div><div class='col-1-2'><img src='https://bricktaria.com/storage/assets/"+item.categoryName+"/"+item.id+".png' style='width:80%;'/></div</div></div></div><div>"+item.name+"</div><div class='col-1-1'><div class='col-1-2'><div style='display:block;' class='button success centered' data-id='"+item.id+"'>Approve</div></div><div class='col-1-2'><div class='button danger centered' style='display:block;' data-id='"+item.id+"'>Decline</div></div></div></div></div>");
 			});
 		} else {
 			$("#content").html("<div class='banner danger centered'>"+data.error+"</div>");
