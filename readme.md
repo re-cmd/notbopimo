@@ -1,0 +1,1 @@
+ ## Hello! Thank you for downloading Bopimo fixed. This was fixed and put together by Mapler! If you have any questions hit me up on V3rmillion my username is Maplerxyz. If you are going to use this please credit me as this took a long time. Please refer to bopimo/credits.md for information of who helped. 
